@@ -1,0 +1,186 @@
+/* Establece el tamaño del papel A4 en píxeles */
+@page {
+    size: 595px 842px;
+    margin: 0;
+}
+
+/* Ajusta el cuerpo (body) al tamaño del papel A4 */
+body {
+    width: 595px;
+    height: 842px; 
+}
+.document {
+    margin: 10px;
+}
+main {     
+    width: 549px;
+    height: 129px;
+    border: 1px;
+    border-top: 1px solid #188DC7;
+    padding-top: 1px;
+    margin-left: 13px;
+}
+.header {
+    width: 575px;
+    height: 134px;
+    display: grid;
+    grid-template-columns: 182px 218px 175px;
+    
+}
+.logo {    
+    width: 182px;
+    height: 134px;
+    align-items: center;
+}
+.box_empresa {
+    width: 216;
+    height: 134px;    
+}
+
+.n_factura{
+    width: 175;
+    height: 134px;
+}
+.logo_imagen {
+    float: right;
+    width: 144px;
+    height: 46px;
+    margin-right: 19px;
+    margin-top: 9px;
+}
+.info_empresa p {
+    font-family: "prima sans";    
+    line-height: 11px;    
+}           
+.info_negrita {    
+    font-size: 7.7px;
+    font-weight: bold;
+    color: #6E8193;
+    
+}
+.azul {
+    color: #188DC7;
+}
+
+.info_empresa {
+    font-size: 7.5px;
+    margin-top: 17px;
+    color: #6E8193;
+}
+.info_mayus {
+    font-size: 7px;
+    color: #6E8193;
+    letter-spacing: 0.3%;
+
+}
+.info_minucula {
+    font-size: 7.5;
+    letter-spacing: 1.3%;
+    color: #6E8193;
+}
+.inline-p {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.info_negrita_minuscula {
+    font-weight: bold;
+}
+.box_factura {
+    width: 154px ;
+    height: 73px;
+    background-color:#188DC7;
+    font-weight: bold;
+    font-family: 'prima sans';
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.5%;    
+    align-items: center;
+    justify-content: center;
+    border-radius: 07px;
+    
+}
+.box_factura p {
+    padding-top: 14px;
+    text-align: center;  
+    color: white;
+    line-height: 15px;  
+}
+.box p {
+    font-family: 'PrimaSans BT';
+    font-size: 7.5px;
+    
+}
+
+.client {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;          
+    width: 542px;
+    padding-left: 3px;   
+
+}
+.box {    
+    border: 1px solid #188DC7;
+    letter-spacing: 1.5%;
+    line-height: 12px;      
+    height: 54px;
+    border-radius: 6px;
+    padding-top: 4px;
+    padding-left: 7px;
+}
+.codigo_cuentas {
+    margin-top: 2px;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;    
+}
+.box_cuentas {    
+    border: 1px solid #188DC7;
+    height: 24px;
+    border-radius: 4px;
+    padding-top: 4px;
+
+}
+.nombre_cuenta {    
+    font-family: 'prima sans';
+    font-weight: bold;
+    font-size: 4.5px;
+    text-align: left;
+    color: #708294;
+    margin-left: 3px;
+}
+.numero_cuenta {
+    font-family: 'prima sans';
+    font-weight: bold;
+    font-size: 6px;
+    text-align: center;
+    margin-top: 4px;
+}
+.box_info_document {
+    display: grid;
+    grid-template-columns:142px 102px 87px 106px 90px ;
+    border: 1px solid #188DC7;
+    border-radius: 6px;
+    width: 539px;
+    height: 32px;
+    padding-left: 8px;
+    margin-top: 2px;
+}
+.info_document{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo {
+    font-family: 'prima sans';
+    font-weight: bold;
+    font-size: 7.8px;
+    text-align: left;
+}
+.dato {
+    font-family: 'prima sans';    
+    font-size: 7.7px;
+    text-align: left;
+    margin-top: 3px;
+}
